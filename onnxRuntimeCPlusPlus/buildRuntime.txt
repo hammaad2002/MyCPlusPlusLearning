@@ -2,4 +2,4 @@ The command to clone and build onnx-runtime is given below:
 
 git clone --recursive https://github.com/microsoft/onnxruntime
 cd onnxruntime
-./build.sh --config Release --parallel --skip_tests --allow_running_as_root --cmake_generator "Unix Makefiles"
+./build.sh --config RelWithDebInfo --build_shared_lib --parallel --skip_tests --allow_running_as_root --cmake_generator "Unix Makefiles"
