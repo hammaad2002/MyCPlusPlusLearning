@@ -1,0 +1,38 @@
+esmini GIT REV: N/A
+esmini GIT TAG: N/A
+esmini GIT BRANCH: N/A
+esmini BUILD VERSION: 3976
+No fixed timestep specified - running in realtime speed
+Generated seed 1732056848
+Loading /myGitWork/esmini_work/temporaryScenario/xosc/temporary0.xosc (v1.2)
+0 variables
+Loaded OpenDRIVE: /myGitWork/esmini_work/temporaryScenario/xosc/../xodr/temporary0.xodr
+lane_idx -1 fail for lane id -3
+lane_idx -1 fail for lane id -3
+0 parameters
+0.000: Init Ego LongitudinalAction initState -> startTransition -> runningState
+0.000: Init Ego TeleportAction initState -> startTransition -> runningState
+0.000: Starting teleport Action
+0.000: Ego New position:
+0.000: Pos(25.00, -6.00, 0.00) Rot(0.00, 0.00, 0.00) roadId 0 laneId -3 offset 0.00 t -6.00
+0.000: Init Target LongitudinalAction initState -> startTransition -> runningState
+0.000: Init Target TeleportAction initState -> startTransition -> runningState
+0.000: Starting teleport Action
+0.000: lane_idx -1 fail for lane id -3
+0.000: MoveAlongS Lane -3 on road 0 is or became zero width, moved to closest available lane: -2
+0.000: Target New position:
+0.000: Pos(55.00, -4.50, 0.00) Rot(0.00, 0.00, 0.00) roadId 0 laneId -2 offset 0.00 t -4.50
+0.000: storyBoard initState -> startTransition -> runningState
+0.000: story_act_empty initState -> startTransition -> runningState
+0.000: act_empty initState -> initToStandbyTransition -> standbyState
+0.000: Trigger /------------------------------------------------
+0.000: Trigger  ------------------------------------------------/
+0.000: act_empty standbyState -> startTransition -> runningState
+0.000: empty initState -> startTransition -> runningState
+0.000: Init Ego LongitudinalAction runningState -> endTransition -> completeState
+0.000: Init Ego TeleportAction runningState -> endTransition -> completeState
+0.000: Init Target LongitudinalAction runningState -> endTransition -> completeState
+0.000: Init Target TeleportAction runningState -> endTransition -> completeState
+0.010: lane_idx -1 fail for lane id -3
+0.010: MoveAlongS Lane -3 on road 0 is or became zero width, moved to closest available lane: -2
+Closing
